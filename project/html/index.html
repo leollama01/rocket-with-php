@@ -7,33 +7,38 @@
     <title>Foguete</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./slyle.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
 
     <div class="d-flex justify-content-center">
-        <form name="formulario" method="post" action="index.php">
+        <form name="formulario" method="POST" action="index.php">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label w-100 p-1">Quantidade de Combustível no
+                <label for="quantidade-combustivel" class="form-label w-100 p-1">Quantidade de Combustível no
                     Tanque:</label>
-                <input type="number" class="form-control w-100 p-1" id="exampleInputEmail1"
-                    aria-describedby="emailHelp">
+                <input type="number" class="form-control w-100 p-1" id="quantidade-combustivel"
+                    name="quantidade-combustivel">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label w-100 p-1">Quantidade Consumida a cada
-                    15.376KM:</label>
-                <input type="number" class="form-control w-100 p-1" id="exampleInputPassword1">
+                <label for="quantidade-consumida" class="form-label w-100 p-1">Quantidade Consumida a cada
+                    15.376 Km:</label>
+                <input type="number" class="form-control w-100 p-1" id="quantidade-consumida"
+                    name="quantidade-consumida">
             </div>
             <div class="w-100 text-center">
-                <button type="submit text-center" class="btn btn-danger">Acionar Foguete</button>
+                <button type="submit" class="btn btn-danger">Acionar Foguete</button>
             </div>
         </form>
     </div>
 
+    <div class="text-center">
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-        </script>
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 
 </body>
 
