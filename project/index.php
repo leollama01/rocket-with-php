@@ -25,8 +25,8 @@
 
             echo('<br>');
             echo('<div class="text-center">');
-            echo('<p>Quantidade de Combustível: <b>' . $quantidadeCombustivelInicial . '</b></p>');
-            echo('<p>Quantidade Consumida a cada 15.376 Km:  <b>' . $quantidadeConsumidaInicial . '</b></p>');
+            echo('<p>Quantidade de combustível: <b>' . $quantidadeCombustivelInicial . '</b></p>');
+            echo('<p>Quantidade consumida a cada 15.376 Km:  <b>' . $quantidadeConsumidaInicial . '</b></p>');
             echo('<hr>');
             echo('<br>');
 
